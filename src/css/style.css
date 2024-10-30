@@ -1,0 +1,90 @@
+body{
+    font-family: 'Public-sans', sans-serif ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    font-family: 'Public Sans',sans-serif;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a{
+    padding: 10px 5px;
+}
+
+.header .texto-logo{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu li.btn{
+    background-color: #5BC241;
+    padding: 10px 5px;
+    width: 129px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* .header li a:hover{
+    color: #FFFFFF;
+    padding: 10px 5px;
+    background-color: #5BC241;
+} */
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #FFFFFF;
+    /* width: 60px;
+    height: 40px; */
+}
+
+/* .header a:hover{
+    color: #FFFFFF;
+}
+
+.header .menu li:hover{
+    color: #FFFFFF;
+} */
+
+.header .texto-sobre{
+    font-weight: 400;
+}
+
+/* .header .texto-sobre:hover{
+    color: #FFFFFF;
+    font-weight: 400;
+} */
+
+.header .texto-btn{
+    color: #FFFFFF;
+    font-weight: 300;
+}
+

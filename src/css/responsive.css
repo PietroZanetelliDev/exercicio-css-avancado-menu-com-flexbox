@@ -1,0 +1,42 @@
+@media(max-width: 650px) {
+    .header .texto-logo{       
+        font-size: 40px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 233px;
+        height: 385px;
+        margin-top: 160px;
+    }
+
+    .menu li a{
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+
+    .menu li.btn{
+        width: 151px;
+        height: 55px;
+        padding: 15px 23px;
+        margin-left: 0;
+
+    }
+    .menu a.texto-btn{
+        white-space: nowrap;
+        font-size: 18px;
+    }
+
+    .menu li:last-child{
+        margin-top: 20px;
+    }
+}
